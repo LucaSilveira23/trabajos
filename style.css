@@ -1,0 +1,248 @@
+body{
+    
+    font-family: 'Manrope', sans-serif;
+    /*insertando color de fondo y tipo de fuente a todo el cuerpo de los html*/
+    background-image: url(./img/32902937_062134858628.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #735F32;
+}
+
+.titulo-principal{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-decoration: line-through black;
+    padding-bottom: 30px;
+}
+
+h2{
+    text-decoration: line-through black;
+}
+
+img{
+    border: 3px inset #735f32;
+}
+.link{
+    color: #735f32;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.link:hover{
+    color: beige;
+
+}
+
+.subtitulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #735f32;
+    font-size: 1rem;
+}
+#subtitulo-dos{
+    padding-left: 30px;
+}
+.link-imagen{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.ol{
+    
+    color: #735F32;
+    list-style-type: decimal;
+    font-size: 0.8rem;
+}
+.moov{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.moov:hover{
+    transform: scale(1.2);
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #735f32;
+}
+ table ,th, td {
+    color: #735f32;
+    border: 1px solid #282A3A;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+td:hover{
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+}
+.sectionCuatro{
+    color: #735f32;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.sectionCinco{
+    color: #735F32;
+}
+.sectionSeis{
+    color: #735f32;
+    text-align: left;
+    
+}
+.sectionSiete{
+    color: #735f32;
+}
+.sectionOcho{
+    color: #735f32;
+}
+.sectionNueve{
+    color: #735f32;
+}
+.sectionDiez{
+    color: #735f32;
+}
+.accordion {
+    --bs-accordion-active-bg: #000;
+    --bs-accordion-active-color:#ffffff;
+   
+}
+.accordion-button{
+    text-decoration:none;
+    color: white;
+}
+.accordion-button{
+    background-color: black;
+}
+.accordion-item{
+    background-color: black;
+}
+.accordion-body{
+    color: #735F32;
+}
+.accordion-header{
+    background-color: black;
+}
+
+
+
+
+
+
+footer {
+    color: rgb(71, 71, 71);
+    margin: 25px;
+   
+}
+
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #282A3A;
+    padding-right: 25%;
+   
+}
+
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/*Mobile*/
+@media only screen and (max-width:500px){
+    .p{
+        display: none;
+    }
+    
+    .subtitulos{
+        display: none;
+        
+    }
+    .link-imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+
+    }
+    #img-dos{
+        width: 160px;
+    }
+    .titulo-principal{
+        font-size: 2.3rem;
+    }
+    .ol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link{
+        color: #735F32;
+        font-size: 0.8rem;
+
+    }
+    .ul-secundario{
+        display: none;
+    }
+    .footer-secundario{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+   
+}
+/*Tablet*/
+@media only screen and (min-width: 501px) and (max-width:978px) {
+   .ol{
+    display: none;
+    }
+    .subtitulos{
+        font-size: 0.7rem;
+    }
+    .p{
+        font-size: 0.7rem;
+    }
+    .ul-secundario{
+        display: none;
+    }
+
+    .footer-secundario{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    
+   
+
+}
+
+@media only screen and (min-width: 979px){
+    .ol{
+        display: none;
+    }
+    .footer-secundario{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+}
+
