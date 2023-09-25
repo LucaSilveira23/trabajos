@@ -1,0 +1,25 @@
+$dorado :#735F32;
+
+
+.titulo-principal{
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+        text-decoration: line-through black;
+        padding-bottom: 30px;
+    }
+
+
+h2{
+    text-decoration: line-through black;
+    #subtitulo-dos{
+        padding-left: 30px;
+    }
+}
+.subtitulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: $dorado;
+    font-size: 1rem;
+}

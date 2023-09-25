@@ -1,0 +1,20 @@
+$dorado :#735F32;
+.ol{
+    
+    color:$dorado;
+    list-style-type: decimal;
+    font-size: 0.8rem;
+}
+table ,th, td {
+    color: $dorado;
+    border: 1px solid #282A3A;
+    margin-left: 20px;
+    margin-top: 35px;
+
+    td:hover{
+        background-color: rgb(19, 19, 19);
+        cursor: pointer;
+    }
+
+
+}
